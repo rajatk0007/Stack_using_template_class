@@ -18,7 +18,8 @@ class stack{
    void push(T a)
     {
         
-		if(top==MAX-1)//this condition signifies that stack is full
+		
+	if(top==MAX-1)//this condition signifies that stack is full
         cout<<"Stack overflow"<<endl;
         
 		else
